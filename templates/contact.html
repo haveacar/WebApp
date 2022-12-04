@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Contact Me
+{% endblock %}
+
+{% block body %}
+   <div class="container">
+   <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Contact Me</h1>
+      <p class="fs-5 text-muted">“Documentation is like sex: When it is bad, it is better than nothing. When it is good, it is really, really good.”</p>
+    </div>
+
+   </div>
+
+    <div class="container row g-5">
+        <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                Contact me:
+            </h3>
+            <div class="row mb-5">
+                <div class="col-md-4 mr-auto">
+                <h3 class="thin-heading mb-4">Tel Aviv</h3>
+                <p>Azor,
+                Ahad Am 33</p>
+                </div>
+                <div class="col-md-6 ml-auto">
+                <h3 class="thin-heading mb-4">Contact Info</h3>
+                <p>T: +972 (053) 3888242 <br> E: haveacar.zhovnir@gmail.com</p>
+                </div>
+                </div>
+
+
+
+        <div class="inner-header-social">
+				<a href="facebook.com/daniel.zh770" aria-label="Facebook" target="_blank"><i class="penci-faicon fa fa-facebook"></i></a>
+
+						<a href="https://www.instagram.com/dnl.zh770/" aria-label="Instagram" target="_blank"><i class="penci-faicon fa fa-instagram"></i></a>
+
+						<a href="https://www.linkedin.com/in/daniel-govnir-2bb234214/" aria-label="Linkedin" target="_blank"><i class="penci-faicon fa fa-linkedin"></i></a>
+
+						<a href="https://github.com/haveacar" aria-label="Github" target="_blank"><i class="penci-faicon fa fa-github"></i></a>
+        </div></div>
+
+
+        <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="fst-italic">About</h4>
+                    <p class="mb-0">Hi I'm Daniel Govnir. I am a Python developer! Also, I have experience Wordpress,
+                        content creator on Instagram</p>
+
+                </div>
+
+                <div class="p-4">
+                    <img src="{{ user_photo }}">
+                </div>
+
+
+                <div class="p-4">
+                    <link rel='stylesheet'
+                              href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+                    <h4 class="fst-italic">Social</h4>
+                    <ol class="container list d-flex">
+                        <a href="https://github.com/haveacar" class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </a>
+                        <a href="https://www.instagram.com/dnl.zh770/" class="icon instagram">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </a>
+                        <a href="https://facebook.com/daniel.zh770" class="icon github">
+                                <div class="tooltip">Github</div>
+                                <span><i class="fab fa-github"></i></span>
+                            </a>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

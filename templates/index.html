@@ -1,0 +1,270 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block body %}
+    <div class="container pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Home</h1>
+        <p class="fs-5 text-muted">“Life is amazing. Life is messy. Life is what you make of it.” Dwayne Johnson</p>
+    </div>
+    <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 fst-italic">Aliens Guns</h1>
+                <img src="{{ logo_al }}">
+                <p class="lead my-3">This is a classic simple Shooter game from 80s. Made by Me.</p>
+                <p class="lead mb-0"><a href="/aliens_guns" class="text-white fw-bold">Continue reading...</a></p>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Games</strong>
+                        <h3 class="mb-0">Number Game</h3>
+                        <div class="mb-1 text-muted">AUGUST 10</div>
+                        <p class="card-text mb-auto">This is a classic Number Game. Made by Me.</p>
+                        <a href="/aliens_guns" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                             role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                             focusable="false"><title>Placeholder</title>><img src="{{ num_game_image }}"></svg>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Games</strong>
+                        <h3 class="mb-0">Tic Tac Toe</h3>
+                        <div class="mb-1 text-muted">July 21</div>
+                        <p class="mb-auto">Classic Tic Tac Toe game on Python.</p>
+                        <a href="/tic_tac" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                             role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                             focusable="false"><title>Placeholder</title>><img src="{{ tic_image }}"></svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    Knowledge for people
+                </h3>
+
+                <article class="blog-post">
+                    <h2 class="blog-post-title mb-1">“Make it work, make it right, make it fast.” – Kent Beck</h2>
+                    <p class="blog-post-meta">
+                    <div class="p-4">
+                        <img src="{{ dani_image }}">
+                    </div>
+
+                    <p>This is my workplace at home in Israel.</p>
+                    <p>When you work in Israel in the summer you need good air conditioning &#x1F31E</p>
+
+                    <p>And I recommend a monitor of at least 32", good lighting. Then you can work productively and not
+                        get tired.I prefer Apple products for work.</p>
+                    <hr>
+                    <h2>Strong password generator</h2>
+                    <p>My version of a strong password generator.</p>
+                    <p>This function You can use anywhere.</p>
+                    <p><img src="{{ password_im }}"></p>
+                    <div class="p-4">
+                    <h4 class="fst-italic">This project on GitHub</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="https://github.com/haveacar/Python-strong-password-generator">GitHub</a></li>
+
+                    </ol>
+                </div>
+                    <hr>
+                    <h2>How to improve Your Productivity</h2>
+                    <p class="blog-post-meta">August 23, 2022 by <a href="/about">Daniel</a></p>
+                    <div class="p-4">
+                        <img src="{{ trillo_im }}">
+                    </div>
+                    <blockquote class="blockquote">
+
+                        <p>If you want to reach your goals and be productive, it is essential to have a good system in
+                            place and a list of tasks in an app that will tell you precisely what you need to accomplish
+                            during the day, the week, or the months to come.</p>
+                    </blockquote>
+                    <p>When looking for a tool to manage tasks, I find that a good and exciting exercise is sitting down
+                        and taking the time to think and assess which features are essential to you. We all need
+                        different things in a to-do app. That’s why there are so many of them out there on the market.
+                        By taking the time to write down what features are important to you, you can save time and
+                        before settling on a tool, make sure it checks most of your boxes.</p>
+                    <h3>Here is my list of requirements that would make a to-do list app my dream tool:</h3>
+                    <ul>
+                        <li>Clean user interface</li>
+                        <li>Available on desktop, iPhone, iPad & Apple Watch, a plus</li>
+                        <li>Checkboxes are mandatory</li>
+                        <li>Ability to change views to see the tasks in different modes</li>
+                        <li>Recurrent tasks</li>
+                        <li>High loading speed, easy to log new tasks</li>
+                        <li>Ability to separate tasks into projects (personal, work, school, etc.)</li>
+                    </ul>
+                    <h2>3 best online to-do lists apps:</h2>
+                    <dl>
+                        <dt>Taskade</dt>
+                        <dd>Taskade is an excellent minimalist tool, simple to use, but still offers several exciting
+                            features. It’s a great mix of note-taking, and managing tasks at the same place.
+                        </dd>
+                        <dt>Trello</dt>
+                        <dd>I rarely use Trello anymore. In the past, I’ve used it for managing my Instagram posts and
+                            for the editorial calendar of my blog. I wouldn’t say I like to move tasks (called Cards on
+                            Trello) from one list to another to mark them as done. I prefer using checkboxes. But, on
+                            the other hand, it can be a good tool for more visual people and don’t make endless to-do
+                            lists like me!
+                        </dd>
+                        <dt>Notion</dt>
+                        <dd>Notion is almost the ultimate planning tool to do just about anything you want it to do for
+                            you. This app is THE most customizable one on the market. But, on the other hand, it comes
+                            with the disadvantage of being more challenging to learn when you start to use it.
+                        </dd>
+                    </dl>
+
+                </article>
+                <hr>
+
+
+                <article class="blog-post">
+                    <h2 class="blog-post-title mb-1">When to Use a List Comprehension in Python</h2>
+                    <p class="blog-post-meta">August 27, 2022 by <a href="/about">Daniel</a></p>
+
+                    <p>One of the language’s most distinctive features is the list comprehension, which you can use to
+                        create powerful functionality within a single line of code.</p>
+                    <p>Many developers struggle more advanced features of a list comprehension in Python. Some
+                        programmers even use them too much, which can lead to code that’s less efficient and harder to
+                        read.</p>
+                    <h2>Using for Loops</h2>
+                    <p>The most common type of loop is the for loop. You can use a for loop to create a list of elements
+                        in three steps:</p>
+                    <ul>
+                        <l1>Instantiate an empty list.</l1>
+                        <l1>Loop over an iterable or range of elements.</l1>
+                        <l1>Append each element to the end of the list.</l1>
+                    </ul>
+
+                    <p>If you want to create a list containing the first ten perfect squares, then you can complete
+                        these steps in three lines of code:</p>
+                    <pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">squares</span> <span
+                            class="o">=</span> <span class="p">[]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span
+                                class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span
+                                class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="n">squares</span><span class="o">.</span><span class="n">append</span><span
+                                class="p">(</span><span class="n">i</span> <span class="o">*</span> <span
+                                class="n">i</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">squares</span>
+<span class="go">[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]</span>
+</code></pre>
+                    <h2>Using List Comprehensions</h2>
+                    <p>List comprehensions are a third way of making lists. With this elegant approach, you could
+                        rewrite the for loop from the first example in just a single line of code:</p>
+                    <pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">squares</span> <span
+                            class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span
+                            class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span
+                            class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span
+                            class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">squares</span>
+<span class="go">[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]</span>
+</code></pre>
+                    <p>Rather than creating an empty list and adding each element to the end, you simply define the list
+                        and its contents at the same time by following this format:</p>
+                    <pre><span></span><code><span class="go">new_list = [expression for member in iterable]</span>
+</code></pre>
+                    <h2>How to Supercharge Your Comprehensions</h2>
+                    <p>In order to understand the full value that list comprehensions can provide, it’s helpful to
+                        understand their range of possible functionality. You’ll also want to understand the changes
+                        that are coming to the list comprehension in Python</p>
+                    <h3>Using Conditional Logic</h3>
+                    <p>While this formula is accurate, it’s also a bit incomplete. A more complete description of the
+                        comprehension formula adds support for optional conditionals. The most common way to add
+                        conditional logic to a list comprehension is to add a conditional to the end of the
+                        expression:</p>
+                    <pre><span></span><code><span class="go">new_list = [expression for member in iterable (if conditional)]</span>
+</code></pre>
+                    <p1>Here, your conditional statement comes just before the closing bracket.
+
+                        Conditionals are important because they allow list comprehensions to filter out unwanted values,
+                        which would normally require a call to filter():
+                    </p1>
+                    <div class="highlight python repl"><span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+                        <pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span
+                                class="n">sentence</span> <span class="o">=</span> <span class="s1">'the rocket came back from mars'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vowels</span> <span class="o">=</span> <span
+                                    class="p">[</span><span class="n">i</span> <span class="k">for</span> <span
+                                    class="n">i</span> <span class="ow">in</span> <span class="n">sentence</span> <span
+                                    class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span
+                                    class="s1">'aeiou'</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vowels</span>
+<span class="go">['e', 'o', 'e', 'a', 'e', 'a', 'o', 'a']</span>
+</code></pre>
+                    </div>
+                    <p>In this code block, the conditional statement filters out any characters in sentence that aren’t
+                        a vowel.</p>
+                    <hr>
+                </article>
+                <nav class="blog-pagination" aria-label="Pagination">
+
+                </nav>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p class="mb-0">Hi I'm Daniel Govnir. I am a Python developer! Also, I have experience
+                            Wordpress,
+                            content creator on Instagram</p>
+                    </div>
+
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="/aliens_guns">Aliens Guns</a></li>
+                            <li><a href="/tic_tac">Tic Tac Toe</a></li>
+                            <li><a href="/number_game">Number Game</a></li>
+                            <li><a href="/cinema">Cinema tickets</a></li>
+
+                        </ol>
+                    </div>
+
+                    <div class="p-4">
+                        <link rel='stylesheet'
+                              href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+                        <h4 class="fst-italic">Social</h4>
+                        <ol class="container list d-flex">
+                            <a href="https://github.com/haveacar" class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </a>
+                            <a href="https://www.instagram.com/dnl.zh770/" class="icon instagram">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </a>
+                            <a href="https://facebook.com/daniel.zh770" class="icon github">
+                                <div class="tooltip">Github</div>
+                                <span><i class="fab fa-github"></i></span>
+                            </a>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+{% endblock %}
+

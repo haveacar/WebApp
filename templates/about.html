@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    About Me
+{% endblock %}
+
+{% block body %}
+   <div class="container">
+   <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">About Me</h1>
+      <p class="fs-5 text-muted">"The short successes that can be gained in a brief time and without difficulty, are not worth much." Henry Ford</p>
+    </div>
+
+   </div>
+
+    <div class="container row g-5">
+        <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                I'm Daniel Govnir
+            </h3>
+
+
+            <p><br></p>
+            <h3><strong>Short Biography</strong>&nbsp;</h3>
+            <p>I am from Ukraine, Chernovtsy. A very pretty town with amazing story and a mountain perfect for skiing in
+                the winter. I speak <strong>4 languages</strong>.</p>
+            <p>My first language is <b>Ukrainian</b>, and <b>Russian</b> language. Learned <b>English</b> and <b>Hebrew</b>
+                throughout the years at school and by courses.</p>
+            <p>I also have a college Law degree and I'm student in Computer Science.</p>
+            <p>I moved 3 years ago To Tel Aviv, Israel. I am married and I have a child.</p>
+
+            <p><br></p></div>
+
+        <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="fst-italic">About</h4>
+                    <p class="mb-0">Hi I'm Daniel Govnir. I am a Python developer! Also, I have experience Wordpress,
+                        content creator on Instagram</p>
+
+                </div>
+
+                <div class="p-4">
+                    <img src="{{ user_image }}">
+                </div>
+
+
+                <div class="p-4">
+                    <link rel='stylesheet'
+                              href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+                    <h4 class="fst-italic">Social</h4>
+                    <ol class="container list d-flex">
+                        <a href="https://github.com/haveacar" class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </a>
+                        <a href="https://www.instagram.com/dnl.zh770/" class="icon instagram">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </a>
+                        <a href="https://facebook.com/daniel.zh770" class="icon github">
+                                <div class="tooltip">Github</div>
+                                <span><i class="fab fa-github"></i></span>
+                            </a>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
